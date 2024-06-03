@@ -11,8 +11,9 @@ public class Main {
         ApiGithubConsulta consulta = new ApiGithubConsulta();
 
         System.out.print("Digite o nome do usuário do GitHub: ");
-        consulta.setGitHubUser(scanner.nextLine());
+        consulta.setGitHubUser(scanner.next());
 
-        consulta.ExibirPerfil();
+        consulta.consultar();
+        System.out.println(consulta.toString());
     }
 }

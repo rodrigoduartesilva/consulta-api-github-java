@@ -4,7 +4,7 @@ public class UserGitHub {
     private String name;
     private String login;
     private String id;
-    private String htmlUrl;
+    private String html_url;
 
     public String getName() {
         return name;
@@ -30,11 +30,11 @@ public class UserGitHub {
         this.id = id;
     }
 
-    public String getHtmlUrl() {
-        return htmlUrl;
+    public String getHtml_url() {
+        return html_url;
     }
 
-    public void setHtmlUrl(String htmlUrl) {
-        this.htmlUrl = htmlUrl;
+    public void setHtml_url(String html_url) {
+        this.html_url = html_url;
     }
 }
